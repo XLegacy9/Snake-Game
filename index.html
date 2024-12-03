@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="x-icon" href="giphy (1).webp">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <br>
+      <br>
+      <br>
+      <div class="content">
+    <h1>Score Board</h1>
+    <div id="scoreboard">
+      <p id="current-score" style="color: white;">Score: 0</p> 
+    <p id="highest-score" style="color: white;">Highest Score: 0</p>
+
+      <button id="restart-button" class="spn">
+        <img
+          src="restart_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (1).png"
+          alt=""
+          width="30px"
+          height="30px"
+        /> <button id="pause-button"><b>Pause</b></button></div>
+        <h4>Tips :</h4>
+        <p>To <b>Start </b>press any arrow key</p>
+        <p>Move Right: &rarr;</p>
+        <p>Move Left: &larr;</p>
+        <p>Move Up: &uarr;</p>
+        <p>Move Down: &darr;</p>
+        <p>blue dot : adds <b>1</b> point </p>
+        <p>Rainbow dot : adds <b>2</b> points</p>
+   
+      </div>
+    <canvas id="gameCanvas" width="400" height="400">
+      
+    </canvas>
+    
+    <div id="controls">
+      <button class="mobile-ctrl" id="up-button">&uarr;</button>
+      <div class="flex-btn">
+        <button class="mobile-ctrl" id="left-button">&larr;</button>
+        <button class="mobile-ctrl"  id="down-button"> &darr;</button>
+        <button class="mobile-ctrl" id="right-button">&rarr;</button>
+      
+      
+    </div>
+    </div>
+   
+    </button>
+    <script src="script.js"></script>
+  </section>
+  </body>
+</html>
