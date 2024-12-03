@@ -160,13 +160,3 @@ button:active {
     display: none;
   }
 }
-@media (max-width: 768px) {
-  #pause-button {
-    transform: translate(150px, 730px);
-  }
-}
-@media (max-width: 768px) {
-  #restart-button {
-    transform: translate(-90px, 740px);
-  }
-}
